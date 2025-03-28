@@ -1,0 +1,137 @@
+
+.F1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Header Section */
+.F2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.F3 {
+    color: #6e8bab;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.F4 {
+    font-size: 48px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.F5 {
+    font-size: 20px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Movie Cards Grid */
+.F6 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.F7 {
+    flex: 1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.F7:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* .movie-image {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+} */
+.movie-image {
+    width: 100%;
+    object-fit: cover;
+    height: 80%;
+}
+.F8 {
+    padding: 20px;
+}
+
+.F9 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.F3 {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Additional F3 for the third card */
+.F3 {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .F6 {
+        gap: 20px;
+    }
+    
+    .F4 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .F6 {
+        flex-direction: column;
+    }
+    
+    .F7 {
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+    
+    .F4 {
+        font-size: 36px;
+    }
+    
+    .F5 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .F1 {
+        padding: 40px 15px;
+    }
+    
+    .F4 {
+        font-size: 30px;
+    }
+    
+    .F3 {
+        font-size: 16px;
+    }
+    
+    .F5 {
+        font-size: 16px;
+    }
+    
+    .F9 {
+        font-size: 20px;
+    }
+}

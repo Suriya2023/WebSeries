@@ -1,0 +1,204 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.logos1 {
+    border-radius: 10%;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #009966;
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: white;
+    /* max-width: 300px; */
+    width: 100%;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.search-box input::placeholder {
+    color: gray;
+}
+
+.search-box i {
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .search-box {
+        max-width: 90%;
+    }
+}
+
+.onavbar {
+    gap: 5rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    max-width: 1600px;
+    background-color: #7cb3c0;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.omenu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.omenu a:hover {
+    background-color: #333;
+}
+
+.omenu.oshow {
+    display: block;
+}
+
+.osearch-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.osearch-box {
+    width: 80vmin;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.osearch-icon {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.onav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.onav-right a {
+    color: white;
+    text-decoration: none;
+    width: 4rem;
+}
+
+
+.onotification {
+    position: relative;
+    cursor: pointer;
+}
+
+.onotification-badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+
+.theme-toggle {
+    cursor: pointer;
+}
+
+.nmb {
+    width: 5rem;
+    vertical-align: middle;
+    display: flex;
+}
+
+#menu {
+    z-index: 15;
+    /* display: none; */
+    position: absolute;
+    background-color: #7cb3c0;
+    border: 2px solid white;
+    padding: 10px;
+    width: 200px;
+    /* top: 60px; */
+    /* left: 10px; */
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.o5);
+}
+
+@media (max-width: 768px) {
+
+    .logos1 {
+        border-radius: 10%;
+        width: 5rem;
+    }
+
+    .menu {
+
+        /* display: none; */
+        position: absolute;
+        z-index: 50%;
+        /* background-color: black; */
+        right: 10px;
+    }
+
+    .osearch-box {
+        width: 80vmin;
+    }
+
+    .onavbar {
+        gap: 0rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nmb {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 2vmin;
+
+    }
+
+    .osearch-container {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .onav-right {
+        /* flex-direction: column; */
+        align-items: flex-start;
+        width: 100%;
+        justify-content: center;
+        margin-top: 3vmin;
+    }
+}

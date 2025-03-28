@@ -1,0 +1,72 @@
+
+
+.myclass{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1200px;
+}
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.movie-title {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.explore-button {
+    margin-top: 20px;
+    padding: 22px 50px;
+    font-size: 1rem;
+    background: black;
+    color: white;
+    border: none;
+    border: 5px solid rebeccapurple;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 2vmin;
+}
+
+.explore-button:hover {
+    color: black;
+    background: #7cb3c0;
+}
+@media screen and (min-width:769px){
+    #nock{
+        display: none;
+    }
+    
+}

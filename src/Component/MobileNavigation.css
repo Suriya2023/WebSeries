@@ -1,0 +1,30 @@
+.bgblue300 {
+    z-index: 0;
+
+    opacity: 0.5;
+    /* border: 5px solid rgb(255, 255, 255) ; */
+    background-color: rgb(87, 140, 135);
+    /* background-color: #252b2c; */
+}
+
+.log {
+    background: #7cb3c0;
+
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(./Images/footer.webp); */
+}
+
+.mobileNavbar {
+    padding: 2vmin;
+    background: #7cb3c0;
+}
+
+ 
+@media screen and (min-width:769px) {
+
+    .mobileNavbar {
+        display: none;
+    }
+
+}

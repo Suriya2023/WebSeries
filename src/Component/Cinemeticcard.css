@@ -1,0 +1,129 @@
+.C1 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image:url(./Images/ISNUXDnamUUHrZbQdKexPE-4096x4096.webp);
+    min-height: 500px;
+    /* background: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 100%), url('/api/placeholder/1920/800'); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 2vmin;
+    align-items: center;
+}
+.cCimetic{
+    padding: 2vmin;
+}
+/* .C1:hover {
+    padding: 2vmin;
+    border:inset 2px solid white;
+} */
+
+.C2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    /* background: linear-gradient(90deg, 
+        rgba(12, 31, 50, 0.7) 0%,
+        rgba(12, 31, 50, 0.5) 50%,
+        rgba(12, 31, 50, 0.3) 100%); */
+}
+
+.C3 {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.C4 {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.Ctitle {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    font-style: italic;
+}
+
+.Cdescription {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: white;
+    /* color: #111; */
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .C4 {
+        width: 60%;
+    }
+    
+    .Ctitle {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .C3 {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .C4 {
+        width: 80%;
+        padding-right: 0;
+    }
+    
+    .Ctitle {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .C1 {
+        height: auto;
+        padding: 100px 0;
+    }
+    
+    .C4 {
+        width: 100%;
+    }
+    
+    .Ctitle {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .Cdescription {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+}
