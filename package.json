@@ -6,7 +6,7 @@
   "description": "A web series application built using React and Three.js",
   "author": "Suraj Rajput <srrajput221221@gmmail.com>",
   "license": "MIT",
-  "homepage": "https:/Suriya2023/.github.io/WebSeries.-Movies",
+  "homepage": "https:/Suriya2023/.github.io/WebSeries",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
